@@ -14,5 +14,12 @@ python3 "$desktop_dir/package-app.py" "$app_dir"
 strip -S "$app_dir/Contents/MacOS/MiaotouMac"
 codesign --force --sign - --entitlements "$desktop_dir/Miaotou.entitlements" "$app_dir"
 codesign --verify --deep --strict "$app_dir"
-ditto -c -k --sequesterRsrc --keepParent "$app_dir" "$output_dir/Miaotou-Mac-1.0.zip"
+python3 - "$app_dir" "$output_dir/Miaotou-Mac-1.0.zip" <<'ZIP'
+from pathlib import Path
+import sys, zipfile
+app = Path(sys.argv[1])
+with zipfile.ZipFile(sys.argv[2], 'w', zipfile.ZIP_DEFLATED, compresslevel=6) as archive:
+    for file in sorted(app.rglob('*')):
+        if file.is_file(): archive.write(file, file.relative_to(app.parent))
+ZIP
 echo "$app_dir"
