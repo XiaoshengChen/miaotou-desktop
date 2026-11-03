@@ -1,0 +1,1052 @@
+{
+  "version": 1,
+  "status": "editorial-draft-not-connected-to-model",
+  "note": "100 个人工编辑的生成角度，不是 100 条已生成的个性化内容，也不是 100 条名人语录。前置条件必须有明确证据；不知道即不满足。",
+  "angles": [
+    {
+      "id": "angle-001",
+      "category": "起步与减阻",
+      "kind": "idea",
+      "title": "两分钟入口",
+      "instruction": "找一个能在两分钟内开始的具体动作，不把完成目标压缩成两分钟。",
+      "requires": [],
+      "sourceId": null
+    },
+    {
+      "id": "angle-002",
+      "category": "起步与减阻",
+      "kind": "idea",
+      "title": "打开现场",
+      "instruction": "指出开始所需的一个文件、工具或工作位置，避免空泛地说立即行动。",
+      "requires": [],
+      "sourceId": null
+    },
+    {
+      "id": "angle-003",
+      "category": "起步与减阻",
+      "kind": "idea",
+      "title": "只做一个样本",
+      "instruction": "把目标缩成一个可观察的小样，允许它暂不完整。",
+      "requires": [],
+      "sourceId": null
+    },
+    {
+      "id": "angle-004",
+      "category": "起步与减阻",
+      "kind": "idea",
+      "title": "先留下草稿",
+      "instruction": "提出一份只给自己看的草稿，不要求发布或接受评价。",
+      "requires": [],
+      "sourceId": null
+    },
+    {
+      "id": "angle-005",
+      "category": "起步与减阻",
+      "kind": "idea",
+      "title": "只做准备动作",
+      "instruction": "如果缺少连续时间，给一个能让下次更容易开始的准备动作。",
+      "requires": [],
+      "sourceId": null
+    },
+    {
+      "id": "angle-006",
+      "category": "起步与减阻",
+      "kind": "idea",
+      "title": "从熟悉部分开始",
+      "instruction": "选择目标里用户可能熟悉的一小块；不假装知道其技能水平。",
+      "requires": [],
+      "sourceId": null
+    },
+    {
+      "id": "angle-007",
+      "category": "起步与减阻",
+      "kind": "idea",
+      "title": "降低工具门槛",
+      "instruction": "优先建议用现有工具尝试，避免把购买或学习新工具变成前置任务。",
+      "requires": [],
+      "sourceId": null
+    },
+    {
+      "id": "angle-008",
+      "category": "起步与减阻",
+      "kind": "idea",
+      "title": "去掉启动仪式",
+      "instruction": "识别一项可跳过的非必要准备，保留目标必需的质量要求。",
+      "requires": [],
+      "sourceId": null
+    },
+    {
+      "id": "angle-009",
+      "category": "起步与减阻",
+      "kind": "idea",
+      "title": "寻找现成材料",
+      "instruction": "提示复用已经拥有的材料；若未确认拥有，用条件句表达。",
+      "requires": [],
+      "sourceId": null
+    },
+    {
+      "id": "angle-010",
+      "category": "起步与减阻",
+      "kind": "idea",
+      "title": "给下次留一句话",
+      "instruction": "建议收工时留下下一次接着做的位置，避免重新想起整个项目。",
+      "requires": [],
+      "sourceId": null
+    },
+    {
+      "id": "angle-011",
+      "category": "缩小范围",
+      "kind": "idea",
+      "title": "一个人版本",
+      "instruction": "把服务对象缩成一个具体的人或使用场景，不强迫大众化。",
+      "requires": [],
+      "sourceId": null
+    },
+    {
+      "id": "angle-012",
+      "category": "缩小范围",
+      "kind": "idea",
+      "title": "一个结果版本",
+      "instruction": "提出只交付一个有价值结果的版本，避免多目标叠加。",
+      "requires": [],
+      "sourceId": null
+    },
+    {
+      "id": "angle-013",
+      "category": "缩小范围",
+      "kind": "idea",
+      "title": "一页版本",
+      "instruction": "适合可视成果时，尝试把核心内容浓缩到一页，不默认目标是网站。",
+      "requires": [],
+      "sourceId": null
+    },
+    {
+      "id": "angle-014",
+      "category": "缩小范围",
+      "kind": "idea",
+      "title": "手工替代自动化",
+      "instruction": "若目标包含自动化，建议先手动完成一次以验证过程。",
+      "requires": [],
+      "sourceId": null
+    },
+    {
+      "id": "angle-015",
+      "category": "缩小范围",
+      "kind": "idea",
+      "title": "先少一个功能",
+      "instruction": "在明确有功能设计时，指出一个可暂缓的非核心能力。",
+      "requires": [
+        "已有功能范围"
+      ],
+      "sourceId": null
+    },
+    {
+      "id": "angle-016",
+      "category": "缩小范围",
+      "kind": "idea",
+      "title": "只覆盖主场景",
+      "instruction": "选择最常见的一条使用路径；没有场景信息时改为一个澄清问题。",
+      "requires": [],
+      "sourceId": null
+    },
+    {
+      "id": "angle-017",
+      "category": "缩小范围",
+      "kind": "idea",
+      "title": "把版本做窄",
+      "instruction": "提出面向一个小类需求的版本，不建议为了做小而失去价值。",
+      "requires": [],
+      "sourceId": null
+    },
+    {
+      "id": "angle-018",
+      "category": "缩小范围",
+      "kind": "idea",
+      "title": "保住必要质量",
+      "instruction": "帮助区分缩范围与降低核心质量，指出一项不可省的体验。",
+      "requires": [],
+      "sourceId": null
+    },
+    {
+      "id": "angle-019",
+      "category": "缩小范围",
+      "kind": "idea",
+      "title": "把未知单独拿出",
+      "instruction": "识别一个未知点，用小实验验证，避免拖慢所有已知工作。",
+      "requires": [],
+      "sourceId": null
+    },
+    {
+      "id": "angle-020",
+      "category": "缩小范围",
+      "kind": "idea",
+      "title": "设一个停止条件",
+      "instruction": "建议用可看见的结果定义何时暂时完成，不替用户新增期限。",
+      "requires": [],
+      "sourceId": null
+    },
+    {
+      "id": "angle-021",
+      "category": "验证真实需求",
+      "kind": "idea",
+      "title": "问一次真实经历",
+      "instruction": "围绕目标受众最近一次相关经历提问，不问他们会不会喜欢。",
+      "requires": [
+        "已有目标受众"
+      ],
+      "sourceId": null
+    },
+    {
+      "id": "angle-022",
+      "category": "验证真实需求",
+      "kind": "idea",
+      "title": "观察现有做法",
+      "instruction": "建议观察受众现在怎样解决同一问题，避免先推销自己的方案。",
+      "requires": [
+        "已有目标受众"
+      ],
+      "sourceId": null
+    },
+    {
+      "id": "angle-023",
+      "category": "验证真实需求",
+      "kind": "idea",
+      "title": "找一个反例",
+      "instruction": "提出一种可能不需要该成果的人或场景，用以校准范围。",
+      "requires": [],
+      "sourceId": null
+    },
+    {
+      "id": "angle-024",
+      "category": "验证真实需求",
+      "kind": "idea",
+      "title": "先验证最险假设",
+      "instruction": "挑出一个最可能让目标失去意义的假设，设计低成本检验。",
+      "requires": [],
+      "sourceId": null
+    },
+    {
+      "id": "angle-025",
+      "category": "验证真实需求",
+      "kind": "idea",
+      "title": "拿行为代替夸奖",
+      "instruction": "已有成果时，用一次实际尝试来代替泛泛地问好不好。",
+      "requires": [
+        "已有可体验成果"
+      ],
+      "sourceId": null
+    },
+    {
+      "id": "angle-026",
+      "category": "验证真实需求",
+      "kind": "idea",
+      "title": "用原话描述问题",
+      "instruction": "建议记下受众的一句原话，再对照自己理解的需求。",
+      "requires": [
+        "已有目标受众"
+      ],
+      "sourceId": null
+    },
+    {
+      "id": "angle-027",
+      "category": "验证真实需求",
+      "kind": "idea",
+      "title": "比较不使用的代价",
+      "instruction": "提问这件成果不出现时，对方会继续怎样做，不预设需求强烈。",
+      "requires": [
+        "已有目标受众"
+      ],
+      "sourceId": null
+    },
+    {
+      "id": "angle-028",
+      "category": "验证真实需求",
+      "kind": "idea",
+      "title": "只验证一个变量",
+      "instruction": "在比较方案时只改一个因素，避免无法判断变化的原因。",
+      "requires": [
+        "已有两个可比较方案"
+      ],
+      "sourceId": null
+    },
+    {
+      "id": "angle-029",
+      "category": "验证真实需求",
+      "kind": "idea",
+      "title": "小范围试用",
+      "instruction": "建议找一位合适的人试用，避免把公开上线当成唯一验证方法。",
+      "requires": [
+        "已有可体验成果"
+      ],
+      "sourceId": null
+    },
+    {
+      "id": "angle-030",
+      "category": "验证真实需求",
+      "kind": "idea",
+      "title": "允许修正假设",
+      "instruction": "建议根据一个明确事实调整方向，而非把一次拒绝当作全盘失败。",
+      "requires": [
+        "已有反馈"
+      ],
+      "sourceId": null
+    },
+    {
+      "id": "angle-031",
+      "category": "制作与练习",
+      "kind": "idea",
+      "title": "先做骨架",
+      "instruction": "为作品提出最小结构或轮廓，暂时留空细节。",
+      "requires": [],
+      "sourceId": null
+    },
+    {
+      "id": "angle-032",
+      "category": "制作与练习",
+      "kind": "idea",
+      "title": "先做最难一块的小样",
+      "instruction": "挑一个核心难点做小样，避免最后才发现它无法实现。",
+      "requires": [],
+      "sourceId": null
+    },
+    {
+      "id": "angle-033",
+      "category": "制作与练习",
+      "kind": "idea",
+      "title": "建立可运行切片",
+      "instruction": "对产品或流程做一条从开始到结果的完整小切片。",
+      "requires": [
+        "目标为产品或流程"
+      ],
+      "sourceId": null
+    },
+    {
+      "id": "angle-034",
+      "category": "制作与练习",
+      "kind": "idea",
+      "title": "先写具体例子",
+      "instruction": "用一个具体例子替代抽象说明，再由例子补出结构。",
+      "requires": [],
+      "sourceId": null
+    },
+    {
+      "id": "angle-035",
+      "category": "制作与练习",
+      "kind": "idea",
+      "title": "分开创作和修改",
+      "instruction": "建议先产出一小段，再单独修改，不在每一步同时评判。",
+      "requires": [],
+      "sourceId": null
+    },
+    {
+      "id": "angle-036",
+      "category": "制作与练习",
+      "kind": "idea",
+      "title": "复刻一种技巧",
+      "instruction": "面向学习目标，从参考作品中挑一项技巧练习，不复制他人完整成果。",
+      "requires": [
+        "目标包含学习或创作"
+      ],
+      "sourceId": null
+    },
+    {
+      "id": "angle-037",
+      "category": "制作与练习",
+      "kind": "idea",
+      "title": "建立一个可复用块",
+      "instruction": "找出会反复用到的一小块并整理一次，避免过早搭建庞大系统。",
+      "requires": [
+        "已有重复制作环节"
+      ],
+      "sourceId": null
+    },
+    {
+      "id": "angle-038",
+      "category": "制作与练习",
+      "kind": "idea",
+      "title": "把流程走一遍",
+      "instruction": "以目标参与者的身份从头走到尾，记录第一次卡住的位置。",
+      "requires": [
+        "已有可体验成果"
+      ],
+      "sourceId": null
+    },
+    {
+      "id": "angle-039",
+      "category": "制作与练习",
+      "kind": "idea",
+      "title": "制作一个对照",
+      "instruction": "做两个小尺寸或低成本版本，对比最关键的一处差别。",
+      "requires": [],
+      "sourceId": null
+    },
+    {
+      "id": "angle-040",
+      "category": "制作与练习",
+      "kind": "idea",
+      "title": "保存可回退版本",
+      "instruction": "较大修改前保存当前可用状态，让尝试更轻松。",
+      "requires": [
+        "已有数字作品"
+      ],
+      "sourceId": null
+    },
+    {
+      "id": "angle-041",
+      "category": "体验与质量",
+      "kind": "tip",
+      "title": "第一眼能否看懂",
+      "instruction": "检查一个人第一次看到成果时能否知道它是做什么的。",
+      "requires": [
+        "已有可体验成果"
+      ],
+      "sourceId": null
+    },
+    {
+      "id": "angle-042",
+      "category": "体验与质量",
+      "kind": "tip",
+      "title": "删掉一句解释",
+      "instruction": "已有介绍时，删掉一处重复表达，观察意思是否仍然完整。",
+      "requires": [
+        "已有文案"
+      ],
+      "sourceId": null
+    },
+    {
+      "id": "angle-043",
+      "category": "体验与质量",
+      "kind": "tip",
+      "title": "只修最明显的卡点",
+      "instruction": "从已观察的问题中选一个影响最大的点，避免同时大改。",
+      "requires": [
+        "已有反馈"
+      ],
+      "sourceId": null
+    },
+    {
+      "id": "angle-044",
+      "category": "体验与质量",
+      "kind": "tip",
+      "title": "做一次真实环境测试",
+      "instruction": "把成果放到实际使用环境，检查与制作环境的差别。",
+      "requires": [
+        "已有可体验成果"
+      ],
+      "sourceId": null
+    },
+    {
+      "id": "angle-045",
+      "category": "体验与质量",
+      "kind": "tip",
+      "title": "查看最容易遗漏的状态",
+      "instruction": "提出与目标相关的一种空白、失败或等待情况，不泛列清单。",
+      "requires": [
+        "目标为产品或流程"
+      ],
+      "sourceId": null
+    },
+    {
+      "id": "angle-046",
+      "category": "体验与质量",
+      "kind": "tip",
+      "title": "检查核心信息可读性",
+      "instruction": "对视觉或文字成果，检查关键内容的大小、清晰度与顺序。",
+      "requires": [
+        "已有视觉或文字成果"
+      ],
+      "sourceId": null
+    },
+    {
+      "id": "angle-047",
+      "category": "体验与质量",
+      "kind": "tip",
+      "title": "让结果更快出现",
+      "instruction": "找一个能缩短首次获得价值路径的改动。",
+      "requires": [
+        "已有可体验成果"
+      ],
+      "sourceId": null
+    },
+    {
+      "id": "angle-048",
+      "category": "体验与质量",
+      "kind": "tip",
+      "title": "用一个标准自检",
+      "instruction": "为成果选一个能实际判断的质量标准，不新增全面考核。",
+      "requires": [],
+      "sourceId": null
+    },
+    {
+      "id": "angle-049",
+      "category": "体验与质量",
+      "kind": "tip",
+      "title": "把表达读出声",
+      "instruction": "若目标包含文案或演讲，建议读一小段以找出不自然的表达。",
+      "requires": [
+        "已有文案"
+      ],
+      "sourceId": null
+    },
+    {
+      "id": "angle-050",
+      "category": "体验与质量",
+      "kind": "tip",
+      "title": "换一个观看距离",
+      "instruction": "对视觉或实体作品，换一个实际观看距离检查主要效果。",
+      "requires": [
+        "已有视觉或实体成果"
+      ],
+      "sourceId": null
+    },
+    {
+      "id": "angle-051",
+      "category": "展示与触达",
+      "kind": "idea",
+      "title": "给一个人看",
+      "instruction": "把展示从面对所有人缩成给一位合适的人看。",
+      "requires": [
+        "已有可展示成果"
+      ],
+      "sourceId": null
+    },
+    {
+      "id": "angle-052",
+      "category": "展示与触达",
+      "kind": "idea",
+      "title": "展示过程片段",
+      "instruction": "如果愿意分享，选一个过程片段，不必等到完整成果出现。",
+      "requires": [
+        "已有制作过程"
+      ],
+      "sourceId": null
+    },
+    {
+      "id": "angle-053",
+      "category": "展示与触达",
+      "kind": "idea",
+      "title": "用场景代替形容词",
+      "instruction": "用具体使用场景介绍成果，少用厉害、专业之类评价词。",
+      "requires": [],
+      "sourceId": null
+    },
+    {
+      "id": "angle-054",
+      "category": "展示与触达",
+      "kind": "idea",
+      "title": "先说解决什么",
+      "instruction": "拟一个以对方问题或收获开头的介绍角度。",
+      "requires": [
+        "已有目标受众"
+      ],
+      "sourceId": null
+    },
+    {
+      "id": "angle-055",
+      "category": "展示与触达",
+      "kind": "idea",
+      "title": "一个渠道试一次",
+      "instruction": "从可接触的地方选择一个渠道做小实验，避免同时铺开。",
+      "requires": [
+        "用户希望对外传播"
+      ],
+      "sourceId": null
+    },
+    {
+      "id": "angle-056",
+      "category": "展示与触达",
+      "kind": "idea",
+      "title": "一个明确邀请",
+      "instruction": "让介绍只包含一个清楚的下一步邀请，不自动替用户发送内容。",
+      "requires": [
+        "用户希望对外传播"
+      ],
+      "sourceId": null
+    },
+    {
+      "id": "angle-057",
+      "category": "展示与触达",
+      "kind": "idea",
+      "title": "展示前后差别",
+      "instruction": "若存在真实改进，用一个具体前后对照表达价值，不能捏造数据。",
+      "requires": [
+        "已有真实改进证据"
+      ],
+      "sourceId": null
+    },
+    {
+      "id": "angle-058",
+      "category": "展示与触达",
+      "kind": "idea",
+      "title": "找受众已有聚集地",
+      "instruction": "提出寻找相关讨论或交流场所的线索，不虚构具体社群。",
+      "requires": [
+        "已有目标受众"
+      ],
+      "sourceId": null
+    },
+    {
+      "id": "angle-059",
+      "category": "展示与触达",
+      "kind": "idea",
+      "title": "用作品当开场",
+      "instruction": "已有作品时，建议先展示一小段，再补背景介绍。",
+      "requires": [
+        "已有可展示成果"
+      ],
+      "sourceId": null
+    },
+    {
+      "id": "angle-060",
+      "category": "展示与触达",
+      "kind": "idea",
+      "title": "记录一个常见问题",
+      "instruction": "从真实交流里选一个常见疑问，补到下一次展示中。",
+      "requires": [
+        "已有交流反馈"
+      ],
+      "sourceId": null
+    },
+    {
+      "id": "angle-061",
+      "category": "求助与合作",
+      "kind": "tip",
+      "title": "把求助缩成一个问题",
+      "instruction": "帮助用户提出一个别人容易回答的具体问题。",
+      "requires": [],
+      "sourceId": null
+    },
+    {
+      "id": "angle-062",
+      "category": "求助与合作",
+      "kind": "tip",
+      "title": "请人只看一个地方",
+      "instruction": "反馈请求只指向一处需要判断的部分，不要求全面点评。",
+      "requires": [
+        "已有可展示成果"
+      ],
+      "sourceId": null
+    },
+    {
+      "id": "angle-063",
+      "category": "求助与合作",
+      "kind": "tip",
+      "title": "找不同视角",
+      "instruction": "建议请与自己背景不同但相关的人看一次，注意不假定用户有人脉。",
+      "requires": [
+        "已有可展示成果"
+      ],
+      "sourceId": null
+    },
+    {
+      "id": "angle-064",
+      "category": "求助与合作",
+      "kind": "tip",
+      "title": "展示已试过什么",
+      "instruction": "求助前简短说明尝试和卡点，让对方不必从头猜。",
+      "requires": [
+        "已有尝试"
+      ],
+      "sourceId": null
+    },
+    {
+      "id": "angle-065",
+      "category": "求助与合作",
+      "kind": "tip",
+      "title": "请人示范一次",
+      "instruction": "对技能类卡点，提出看一次实际演示的求助方式。",
+      "requires": [
+        "目标包含学习"
+      ],
+      "sourceId": null
+    },
+    {
+      "id": "angle-066",
+      "category": "求助与合作",
+      "kind": "tip",
+      "title": "先交换小帮助",
+      "instruction": "适合合作时建议一个双方都能承担的小交换，不制造人情义务。",
+      "requires": [
+        "用户希望合作"
+      ],
+      "sourceId": null
+    },
+    {
+      "id": "angle-067",
+      "category": "求助与合作",
+      "kind": "tip",
+      "title": "澄清交付边界",
+      "instruction": "多人共同参与时，先明确一处交接内容和责任，避免泛谈协同。",
+      "requires": [
+        "已有合作者"
+      ],
+      "sourceId": null
+    },
+    {
+      "id": "angle-068",
+      "category": "求助与合作",
+      "kind": "tip",
+      "title": "提供容易拒绝的邀请",
+      "instruction": "合作或反馈邀请留出拒绝空间，不让鼓励变成施压。",
+      "requires": [
+        "用户希望合作或求反馈"
+      ],
+      "sourceId": null
+    },
+    {
+      "id": "angle-069",
+      "category": "求助与合作",
+      "kind": "tip",
+      "title": "把反馈分事实与偏好",
+      "instruction": "收到评价时区分可观察事实与个人口味，不一味照单全收。",
+      "requires": [
+        "已有反馈"
+      ],
+      "sourceId": null
+    },
+    {
+      "id": "angle-070",
+      "category": "求助与合作",
+      "kind": "tip",
+      "title": "感谢一条具体帮助",
+      "instruction": "如果别人确实提供帮助，指出感谢的具体内容，不杜撰帮助历史。",
+      "requires": [
+        "已有他人帮助"
+      ],
+      "sourceId": null
+    },
+    {
+      "id": "angle-071",
+      "category": "时间与精力",
+      "kind": "tip",
+      "title": "留一个短时间窗口",
+      "instruction": "建议在用户可支配时间内试一小段，不默认有整晚空闲。",
+      "requires": [],
+      "sourceId": null
+    },
+    {
+      "id": "angle-072",
+      "category": "时间与精力",
+      "kind": "tip",
+      "title": "先布置方便开始的环境",
+      "instruction": "移走一个与这件事无关的阻碍，不要求全面整理生活。",
+      "requires": [],
+      "sourceId": null
+    },
+    {
+      "id": "angle-073",
+      "category": "时间与精力",
+      "kind": "tip",
+      "title": "少切换一次",
+      "instruction": "把一个相关动作连着做完，再处理无关事项。",
+      "requires": [],
+      "sourceId": null
+    },
+    {
+      "id": "angle-074",
+      "category": "时间与精力",
+      "kind": "tip",
+      "title": "低精力也能做的一小块",
+      "instruction": "给一个不依赖长时间专注的轻动作，不评判用户状态。",
+      "requires": [],
+      "sourceId": null
+    },
+    {
+      "id": "angle-075",
+      "category": "时间与精力",
+      "kind": "tip",
+      "title": "给工作留出口",
+      "instruction": "建议结束时写下停在哪，让下次不用重建上下文。",
+      "requires": [],
+      "sourceId": null
+    },
+    {
+      "id": "angle-076",
+      "category": "时间与精力",
+      "kind": "tip",
+      "title": "一个明确的休息点",
+      "instruction": "把暂停放在一个容易恢复的位置，不暗示停下就是失败。",
+      "requires": [],
+      "sourceId": null
+    },
+    {
+      "id": "angle-077",
+      "category": "时间与精力",
+      "kind": "tip",
+      "title": "避开新增管理负担",
+      "instruction": "建议减少一个为了管理项目而产生的额外动作。",
+      "requires": [
+        "已有管理流程"
+      ],
+      "sourceId": null
+    },
+    {
+      "id": "angle-078",
+      "category": "时间与精力",
+      "kind": "tip",
+      "title": "把材料放在顺手的位置",
+      "instruction": "选择一项常用材料放在容易取用之处，避免重新找资料。",
+      "requires": [],
+      "sourceId": null
+    },
+    {
+      "id": "angle-079",
+      "category": "时间与精力",
+      "kind": "tip",
+      "title": "让等待时间有用途",
+      "instruction": "如果存在等待环节，选一项独立且轻量的准备，不鼓励填满所有休息。",
+      "requires": [
+        "已有等待环节"
+      ],
+      "sourceId": null
+    },
+    {
+      "id": "angle-080",
+      "category": "时间与精力",
+      "kind": "tip",
+      "title": "照顾现实约束",
+      "instruction": "根据明确已知的时间或设备限制调整动作，不生成理想化日程。",
+      "requires": [
+        "已知一个现实限制"
+      ],
+      "sourceId": null
+    },
+    {
+      "id": "angle-081",
+      "category": "卡点与收尾",
+      "kind": "idea",
+      "title": "给卡点命名",
+      "instruction": "用一个具体问题替代我做不出来，避免给用户贴心理标签。",
+      "requires": [],
+      "sourceId": null
+    },
+    {
+      "id": "angle-082",
+      "category": "卡点与收尾",
+      "kind": "idea",
+      "title": "把担心变成可检验问题",
+      "instruction": "提出一个能查证的小问题，不臆测用户内心或诊断。",
+      "requires": [],
+      "sourceId": null
+    },
+    {
+      "id": "angle-083",
+      "category": "卡点与收尾",
+      "kind": "idea",
+      "title": "换一种材料表达",
+      "instruction": "当前表达方式受阻时，尝试用文字、草图或口述中的另一种。",
+      "requires": [
+        "已有表达卡点"
+      ],
+      "sourceId": null
+    },
+    {
+      "id": "angle-084",
+      "category": "卡点与收尾",
+      "kind": "idea",
+      "title": "区分必须等与可以先做",
+      "instruction": "找一处不依赖外部条件的可进行动作，不否认真实依赖。",
+      "requires": [
+        "已有外部依赖"
+      ],
+      "sourceId": null
+    },
+    {
+      "id": "angle-085",
+      "category": "卡点与收尾",
+      "kind": "idea",
+      "title": "回到最初想得到的结果",
+      "instruction": "用一个简短问题帮助对照目标，避免重复鸡汤。",
+      "requires": [],
+      "sourceId": null
+    },
+    {
+      "id": "angle-086",
+      "category": "卡点与收尾",
+      "kind": "idea",
+      "title": "找出已经成立的一部分",
+      "instruction": "只基于已知进展识别可保留的部分，不虚构完成记录。",
+      "requires": [
+        "已有明确进展"
+      ],
+      "sourceId": null
+    },
+    {
+      "id": "angle-087",
+      "category": "卡点与收尾",
+      "kind": "idea",
+      "title": "比较实际起点",
+      "instruction": "把成果与真实开始状态比较，而非与完美愿景比较。",
+      "requires": [
+        "已有可比较的早期版本"
+      ],
+      "sourceId": null
+    },
+    {
+      "id": "angle-088",
+      "category": "卡点与收尾",
+      "kind": "idea",
+      "title": "给完成一个可见标记",
+      "instruction": "按目标设计可观察的完成证据，不新增打卡或积分。",
+      "requires": [],
+      "sourceId": null
+    },
+    {
+      "id": "angle-089",
+      "category": "卡点与收尾",
+      "kind": "idea",
+      "title": "选择一次有限发布",
+      "instruction": "若目标是对外发布，建议先以有限范围交付收尾。",
+      "requires": [
+        "已有可发布成果"
+      ],
+      "sourceId": null
+    },
+    {
+      "id": "angle-090",
+      "category": "卡点与收尾",
+      "kind": "idea",
+      "title": "留下一个继续入口",
+      "instruction": "完成当前小段时留下可选继续方向，不自动新增下一件任务。",
+      "requires": [
+        "已有明确进展"
+      ],
+      "sourceId": null
+    },
+    {
+      "id": "angle-091",
+      "category": "有出处的经验",
+      "kind": "experience",
+      "title": "把起点做轻",
+      "instruction": "匹配 James Clear 的两分钟起步原则；实际建议与来源摘要分开显示。",
+      "requires": [],
+      "sourceId": "clear-two-minute"
+    },
+    {
+      "id": "angle-092",
+      "category": "有出处的经验",
+      "kind": "experience",
+      "title": "找到进入动作",
+      "instruction": "借鉴 James Clear 的入口动作思路，找一个能自然接上目标的开端。",
+      "requires": [],
+      "sourceId": "clear-two-minute"
+    },
+    {
+      "id": "angle-093",
+      "category": "有出处的经验",
+      "kind": "experience",
+      "title": "允许短做就停",
+      "instruction": "借鉴 James Clear 允许两分钟后停止的变体，不把建议写成欺骗自己的套路。",
+      "requires": [],
+      "sourceId": "clear-two-minute"
+    },
+    {
+      "id": "angle-094",
+      "category": "有出处的经验",
+      "kind": "experience",
+      "title": "亲自找第一位使用者",
+      "instruction": "匹配 Paul Graham 关于早期手动招募用户的经验；仅用于确实需要使用者的目标。",
+      "requires": [
+        "已有目标受众"
+      ],
+      "sourceId": "graham-unscalable"
+    },
+    {
+      "id": "angle-095",
+      "category": "有出处的经验",
+      "kind": "experience",
+      "title": "早期服务具体的人",
+      "instruction": "借鉴 Paul Graham 对早期用户给予细致服务的经验，不把规模化当成前提。",
+      "requires": [
+        "已有使用者"
+      ],
+      "sourceId": "graham-unscalable"
+    },
+    {
+      "id": "angle-096",
+      "category": "有出处的经验",
+      "kind": "experience",
+      "title": "从热情反馈找方向",
+      "instruction": "借鉴 Paul Graham 观察最积极的早期用户的思路，只基于真实反馈。",
+      "requires": [
+        "已有使用反馈"
+      ],
+      "sourceId": "graham-unscalable"
+    },
+    {
+      "id": "angle-097",
+      "category": "有出处的经验",
+      "kind": "experience",
+      "title": "亲自体验交付",
+      "instruction": "借鉴 Paul Graham 早期亲力亲为的经验，适配一项能直接观察的交付。",
+      "requires": [
+        "已有可交付成果"
+      ],
+      "sourceId": "graham-unscalable"
+    },
+    {
+      "id": "angle-098",
+      "category": "有出处的经验",
+      "kind": "experience",
+      "title": "区分必须有与锦上添花",
+      "instruction": "匹配 Shape Up 的范围取舍经验，不以删功能为目的。",
+      "requires": [
+        "已有功能或作品范围"
+      ],
+      "sourceId": "shapeup-scope"
+    },
+    {
+      "id": "angle-099",
+      "category": "有出处的经验",
+      "kind": "experience",
+      "title": "与原有做法比较",
+      "instruction": "匹配 Shape Up 的实际基准比较，帮助判断是否已经有价值。",
+      "requires": [
+        "已有可比较基准"
+      ],
+      "sourceId": "shapeup-scope"
+    },
+    {
+      "id": "angle-100",
+      "category": "有出处的经验",
+      "kind": "experience",
+      "title": "保质量收范围",
+      "instruction": "匹配 Shape Up 对缩小范围与保住质量的区分，不鼓励草率交付。",
+      "requires": [
+        "已有功能或作品范围"
+      ],
+      "sourceId": "shapeup-scope"
+    }
+  ],
+  "sources": [
+    {
+      "id": "clear-two-minute",
+      "author": "James Clear",
+      "title": "How to Stop Procrastinating by Using the 2-Minute Rule",
+      "url": "https://jamesclear.com/how-to-stop-procrastinating",
+      "summary": "把新习惯的起步动作缩得很小，让开始更容易；必要时只做两分钟就停。",
+      "displayAttribution": "借鉴 James Clear 的两分钟法则",
+      "isVerbatim": false
+    },
+    {
+      "id": "graham-unscalable",
+      "author": "Paul Graham",
+      "title": "Do Things that Don’t Scale",
+      "url": "https://paulgraham.com/ds.html",
+      "summary": "早期可以亲自寻找并服务少量用户，通过实际接触理解需求，而不急于规模化。",
+      "displayAttribution": "借鉴 Paul Graham 的创业经验",
+      "isVerbatim": false
+    },
+    {
+      "id": "shapeup-scope",
+      "author": "Basecamp · Shape Up",
+      "title": "Decide When to Stop",
+      "url": "https://basecamp.com/shapeup/3.5-chapter-14",
+      "summary": "对照实际基准判断价值，区分必要内容与锦上添花，保住核心质量并控制范围。",
+      "displayAttribution": "借鉴 Shape Up 的范围取舍方法",
+      "isVerbatim": false
+    }
+  ],
+  "toneInstructions": "tone-instructions.zh-CN.txt",
+  "editorialReview": "tone-guide.md"
+}

@@ -1,0 +1,38 @@
+name: Desktop checks
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  mac:
+    runs-on: macos-26
+    steps:
+      - uses: actions/checkout@v7
+      - name: Check public source
+        run: python3 scripts/check-public.py
+      - name: Core tests
+        run: swift test --package-path Mac
+      - name: Build Mac universal preview
+        run: zsh Mac/build-app.sh
+      - uses: actions/upload-artifact@v7
+        with:
+          name: Miaotou-Mac-preview
+          path: dist/Miaotou-Mac-1.0.zip
+  windows:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-dotnet@v5
+        with:
+          dotnet-version: '10.0.x'
+      - name: Core checks
+        run: dotnet run --project Windows/Smoke/Smoke.csproj
+      - name: Build Windows preview
+        shell: pwsh
+        run: ./Windows/build.ps1
+      - uses: actions/upload-artifact@v7
+        with:
+          name: Miaotou-Windows-x64-preview
+          path: dist/windows-x64/Miaotou.exe

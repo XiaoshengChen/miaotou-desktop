@@ -1,0 +1,218 @@
+{
+  "general": [
+    [
+      "What's the next small step?",
+      "接下来最小的一步是什么？"
+    ],
+    [
+      "What would you like to test?",
+      "你最想验证的是什么？"
+    ],
+    [
+      "Try making one rough version.",
+      "先做一份粗糙的版本试试。"
+    ],
+    [
+      "What can you leave out?",
+      "哪些部分可以先不做？"
+    ],
+    [
+      "Who could give useful feedback?",
+      "谁能给你一点具体的反馈？"
+    ],
+    [
+      "Keep a note of what you learn.",
+      "把今天发现的事记下来。"
+    ],
+    [
+      "What would count as finished?",
+      "做到什么程度就算完成？"
+    ],
+    [
+      "You can stop for today.",
+      "今天做累了，可以停下来。"
+    ],
+    [
+      "Start with a familiar part.",
+      "可以从熟悉的部分开始。"
+    ],
+    [
+      "What would make this easier?",
+      "怎么做能省一点力气？"
+    ],
+    [
+      "Save the version you have.",
+      "先把现在这版保存下来。"
+    ],
+    [
+      "Try it before adding more.",
+      "先试试，再决定要不要加。"
+    ],
+    [
+      "What can you learn cheaply?",
+      "哪件事可以低成本试一下？"
+    ],
+    [
+      "Leave yourself a starting point.",
+      "给下次留一个开始的地方。"
+    ],
+    [
+      "A question is worth writing down.",
+      "没想明白的问题也记下来。"
+    ],
+    [
+      "What part do you enjoy most?",
+      "这里面你最喜欢哪一部分？"
+    ],
+    [
+      "Try looking at it tomorrow.",
+      "明天再看，可能有新想法。"
+    ],
+    [
+      "Does this still matter to you?",
+      "这件事现在还让你期待吗？"
+    ],
+    [
+      "One example may be enough.",
+      "先做一个例子就够了。"
+    ],
+    [
+      "Which assumption needs a test?",
+      "哪个想法还没有验证过？"
+    ],
+    [
+      "Keep what works for you.",
+      "适合你的做法，可以留着。"
+    ],
+    [
+      "Can someone try it yet?",
+      "现在能让别人试一下吗？"
+    ],
+    [
+      "Make room for a short break.",
+      "中间留一点休息的时间。"
+    ],
+    [
+      "What surprised you so far?",
+      "有什么和你预想的不一样？"
+    ],
+    [
+      "Use the tools you already have.",
+      "先用手边现成的工具。"
+    ],
+    [
+      "Ask one specific question.",
+      "请教别人时，问具体一点。"
+    ],
+    [
+      "What could you reuse?",
+      "有没有可以直接复用的东西？"
+    ],
+    [
+      "Try explaining it out loud.",
+      "试着把想法大声说一遍。"
+    ],
+    [
+      "You can change your approach.",
+      "做法不合适，可以换一种。"
+    ],
+    [
+      "What deserves your time today?",
+      "今天想把时间花在哪一步？"
+    ],
+    [
+      "Keep a copy before changing it.",
+      "大改之前，留一个副本。"
+    ],
+    [
+      "How would a beginner see it?",
+      "第一次接触的人会怎么看？"
+    ],
+    [
+      "Name the part that's unclear.",
+      "说具体一点，哪里还不清楚？"
+    ],
+    [
+      "Leave a little less to decide.",
+      "能提前决定的，先定下来。"
+    ],
+    [
+      "The draft can stay private.",
+      "草稿可以先只给自己看。"
+    ],
+    [
+      "What did you enjoy learning?",
+      "最近学到什么有意思的东西？"
+    ],
+    [
+      "Compare two simple options.",
+      "拿两个简单方案比较一下。"
+    ],
+    [
+      "Keep the useful feedback.",
+      "反馈不用全听，挑有用的。"
+    ],
+    [
+      "You don't owe it a perfect start.",
+      "开始的时候不熟练，很正常。"
+    ],
+    [
+      "Is there a simpler way to try?",
+      "有没有更简单的试法？"
+    ]
+  ],
+  "website": [
+    [
+      "Check it on your phone first.",
+      "用手机打开看看，效果怎么样？"
+    ],
+    [
+      "Does the first screen explain it?",
+      "第一屏能说清楚你在做什么吗？"
+    ],
+    [
+      "Try every link once.",
+      "把页面上的链接都点一遍。"
+    ],
+    [
+      "Ask someone to find the button.",
+      "让别人试试能不能找到按钮。"
+    ]
+  ],
+  "app": [
+    [
+      "Try the whole flow once.",
+      "从头到尾用一遍试试。"
+    ],
+    [
+      "What happens with no internet?",
+      "没网的时候还能做什么？"
+    ],
+    [
+      "Try it with no saved data.",
+      "没有任何数据时，页面好吗？"
+    ],
+    [
+      "Watch someone use it.",
+      "看看别人实际怎么用它。"
+    ]
+  ],
+  "writing": [
+    [
+      "What do you really want to say?",
+      "你最想说清楚的是什么？"
+    ],
+    [
+      "Read one paragraph aloud.",
+      "选一段，大声读出来听听。"
+    ],
+    [
+      "Keep the specific example.",
+      "具体的例子可以多留一点。"
+    ],
+    [
+      "Can you cut the opening?",
+      "开头那段能不能删掉？"
+    ]
+  ]
+}

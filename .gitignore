@@ -1,0 +1,31 @@
+# Build products and local records
+.build/
+**/.build/
+**/bin/
+**/obj/
+dist/
+artifacts/
+.DS_Store
+*.dSYM/
+*.pdb
+*.xcuserstate
+xcuserdata/
+
+# Credentials and signing material
+.env
+.env.*
+!.env.example
+*.p12
+*.p8
+*.mobileprovision
+*.provisionprofile
+*.key
+*.pem
+*.cer
+Signing.local.*
+
+# Never commit local app records
+miaotou.json
+desktop-v1.json
+state-v1.json
+backup-*.json
