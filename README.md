@@ -1,109 +1,111 @@
-# 小苗头 · Miaotou Desktop
+# miaotou · Desktop
 
-**只记一件自己想做的事，让它每天都看得见。**
+**English** | [简体中文](README.zh-CN.md)
 
-小苗头是一个极简桌面应用，适合正在做副业、独立开发、写作或个人作品的人。把「上线第一个网站」「写完第一篇文章」这样的一件事，放在 Mac 菜单栏或 Windows 悬浮卡片里。小家伙每天给你一个小主意；做完以后，陪你庆祝。
+**Keep one thing you want to do in sight.**
 
-[下载预览版](https://github.com/XiaoshengChen/miaotou-desktop/releases) · [反馈问题](https://github.com/XiaoshengChen/miaotou-desktop/issues)
+miaotou is a minimal desktop app for side projects, writing, and things you want to make for yourself. Keep something like “Ship my first website” or “Finish my first essay” in your Mac menu bar or a floating Windows card. A little companion offers a daily idea and celebrates when you're done.
 
-## 它能帮你做什么
+[Download the preview](https://github.com/XiaoshengChen/miaotou-desktop/releases) · [Report an issue](https://github.com/XiaoshengChen/miaotou-desktop/issues)
 
-- 工作窗口铺满时，仍然记得自己真正想做的那件事。
-- 觉得事情太大时，从小家伙的一句话里找一个可以开始的动作。
-- 每次只保留一个方向；换一件时，原来的事项会留在历史里。
-- 完成后看一场小烟花，再决定下一件想做的事。
+## What you can use it for
 
-不需要建立清单、项目、标签或优先级。
+- Keep your own project visible while work windows fill your screen.
+- Find a small next step in a suggestion from the companion.
+- Focus on one thing at a time. If you replace it, the unfinished thing stays in your history.
+- Celebrate finishing it with a little fireworks display, then choose what's next.
 
-## 看起来是什么样
+There's no list, project structure, tagging, or priority system to set up.
 
-### Mac：菜单栏和固定卡片
+## What it looks like
 
-下面是界面方向示意图，并非实际桌面截图。左侧展示桌面呈现，右侧展示菜单栏展开的卡片；当前预览版实现菜单栏、固定悬浮卡片与收起细条。
+### Mac: menu bar and pinned card
 
-![Mac 桌面与菜单栏设计示意](docs/images/mac-concept.png)
+The image below is a design concept, not an actual desktop screenshot. It shows the desktop presentation on the left and a menu-bar card on the right. The current preview includes a menu-bar item, a pinned floating card, and a compact strip.
 
-实际原生界面渲染：
+![Mac desktop and menu-bar design concept](docs/images/mac-concept.png)
 
-<p><img src="docs/images/mac-card.png" alt="小苗头 Mac 卡片的原生界面渲染" width="360" /></p>
-<p><img src="docs/images/mac-strip.png" alt="收起后只显示小家伙和一件事" width="280" /></p>
+Actual native interface renders:
 
-### Windows：置顶卡片和托盘
+<p><img src="docs/images/mac-card.png" alt="Native render of the miaotou Mac card" width="360" /></p>
+<p><img src="docs/images/mac-strip.png" alt="The compact strip with the companion and one thing" width="280" /></p>
 
-下面是 Windows 设计示意图。卡片可以浮在普通工作窗口上方；忙碌时收成一条，暂时隐藏后可以从托盘找回来。
+### Windows: always-on-top card and system tray
 
-![Windows 悬浮卡片与收起状态设计示意](docs/images/windows-concept.png)
+The image below is a Windows design concept. The card can stay above ordinary work windows or collapse into a strip. If you hide it, you can bring it back from the system tray.
 
-## 开始使用
+![Windows floating-card and compact-strip design concept](docs/images/windows-concept.png)
+
+## Getting started
 
 ### Mac
 
-系统要求：macOS 14 或更新版本，支持 Apple 芯片与 Intel。
+Requires macOS 14 or later. Supports Apple silicon and Intel Macs.
 
-1. 从 [Releases](https://github.com/XiaoshengChen/miaotou-desktop/releases) 下载 Mac 预览包并解压，把「小苗头.app」放进 Applications。
-2. 打开应用，在菜单栏输入一件事，点击 **Save this / 写好了**。
-3. 点图钉，把卡片固定在桌面；点横线收成细条。
-4. 完成后点 **Done / 完成**，查看庆祝，再写下一件。
+1. Download and unzip the Mac preview from [Releases](https://github.com/XiaoshengChen/miaotou-desktop/releases), then move `小苗头.app` to Applications.
+2. Open the app, enter one thing from the menu bar, and select **Save this**.
+3. Use the pin to keep the card on your desktop. Use the minus button to collapse it into a strip.
+4. Select **Done** when you finish, enjoy the celebration, and write your next thing.
 
-默认界面为 English，可在 More → Preferences 中切换简体中文。预览包采用本地签名，尚未完成 Developer ID 公证，也未在 Mac App Store 发布；不适合替代正式签名分发，开发者可从源码构建。
+The interface defaults to English. Switch to Simplified Chinese in More → Preferences. The preview is locally signed, has not been notarized with Developer ID, and is not available on the Mac App Store. It is a preview rather than a fully signed distribution; developers can also build it from source.
 
 ### Windows
 
-当前提供 Windows 11 x64 预览包，内置运行环境，无需另装 .NET。
+The current preview targets Windows 11 x64 and includes its runtime. No separate .NET installation is needed to use it.
 
-1. 从 [Releases](https://github.com/XiaoshengChen/miaotou-desktop/releases) 下载 Windows 包并解压。
-2. 运行 `Miaotou.exe`，写好一件事。
-3. 拖动卡片调整位置；点击事项展开「完成」；横线可收起为细条。
-4. 右下角系统托盘里的小家伙可以恢复卡片。右键可打开历史、偏好设置或退出。
+1. Download and unzip the Windows preview from [Releases](https://github.com/XiaoshengChen/miaotou-desktop/releases).
+2. Run `Miaotou.exe` and write down one thing.
+3. Drag the card to position it. Click the thing to reveal **Done**, or use the minus button to collapse the card into a strip.
+4. Use the companion in the system tray to restore the card. Right-click it to open history, preferences, or quit.
 
-预览包尚未做代码签名。核心记录逻辑与编译已验证，窗口、托盘和多显示器体验仍需要更多 Windows 真机反馈。
+The Windows preview is not code-signed. Core record logic and compilation have been checked; window behavior, the tray, and multiple-display use still need more testing on real Windows machines.
 
-## 小家伙的话从哪里来
+## Where the companion's ideas come from
 
-Mac 在系统支持 Apple Intelligence、端侧模型可用且支持所选语言时，尝试在本机生成简短主意；其余时候使用内置的离线内容。Windows 当前使用离线内容。每天按本地日期更换一句，不调用云端 AI 服务，不需要 API key。
+On a Mac that supports Apple Intelligence, miaotou tries to generate short ideas locally when the on-device model is available and supports the selected language. Otherwise, it uses built-in offline content. Windows currently uses offline content. The message changes with the local date. No cloud AI service or API key is required.
 
-内容可以是一条具体建议、一个有用的问题，或者一句轻松的提醒。没有给名人编造引语。端侧生成质量仍需要兼容设备上的持续测试。
+A message can be a practical suggestion, a useful question, or a lighthearted reminder. It does not invent quotations from famous people. The quality of on-device generation still needs continued testing on compatible devices.
 
-## 记录与隐私
+## Records and privacy
 
-- 无账号、广告、分析追踪或云端数据上传。
-- 事项、历史和偏好保存在当前电脑。
-- **Mac、Windows 与手机之间暂未自动同步。** 桌面版可导出、导入 JSON 记录；导入替换前会先备份现有记录。
-- 登录后启动由用户在偏好设置中主动开启。
-- 仓库只包含应用源码、通用示例和必要图片，不包含实际事项、开发者账号、证书或 API 密钥。
+- No account, ads, analytics tracking, or cloud data uploads.
+- Things, history, and preferences are stored on the current computer.
+- **Mac, Windows, and phone records do not automatically sync yet.** The desktop apps can export and import JSON records. Existing records are backed up before an import replaces them.
+- Open at login is an option you enable in preferences.
+- This repository contains application source, generic examples, and necessary images. It does not include actual personal records, developer account details, certificates, or API keys.
 
-## 从源码构建
+## Building from source
 
 ### Mac
 
-需要能编译 Foundation Models API 的 Xcode 26 或更新版本，以及 Python 3。模型本身在不兼容设备上会自动回退。
+Requires Xcode 26 or later with the Foundation Models API, plus Python 3. The app falls back to offline content on devices that cannot run the model.
 
 ```sh
 swift test --package-path Mac
 zsh Mac/build-app.sh
 ```
 
-通用 App 和 ZIP 生成在 `dist/`。默认使用公开的通用 bundle identifier；自己的分发身份可在本地构建配置中调整，不要提交签名材料。
+The universal app and ZIP are written to `dist/`. Builds use a generic public bundle identifier by default. Configure your own distribution identity locally, and keep signing materials out of the repository.
 
 ### Windows
 
-需要 .NET 10 SDK。在 Windows PowerShell 中运行：
+Requires the .NET 10 SDK. Run in Windows PowerShell:
 
 ```powershell
 dotnet run --project Windows/Smoke/Smoke.csproj
 powershell -File Windows/build.ps1
 ```
 
-程序生成在 `dist/windows-x64/`。也可在 Mac/Linux 上交叉编译；这不能代替 Windows 真机交互验收。
+The application is written to `dist/windows-x64/`. You can also cross-compile on Mac or Linux; this does not replace interaction testing on a real Windows machine.
 
-## 项目结构
+## Project structure
 
 ```text
-Mac/                       SwiftUI / AppKit 应用与核心测试
-Windows/                   WPF 应用、托盘入口与核心检查
-docs/images/               示意图与原生界面渲染
-scripts/                   公开发布前的敏感信息检查
-.github/workflows/         Mac / Windows 构建检查
+Mac/                       SwiftUI / AppKit app and core tests
+Windows/                   WPF app, tray entry, and core checks
+docs/images/               Design concepts and native interface renders
+scripts/                   Sensitive-information checks before publication
+.github/workflows/         Mac / Windows build checks
 ```
 
-当前版本专注于一件事、持续可见、每日一点主意和完成反馈。欢迎通过 Issue 分享具体使用场景或可复现的问题。
+The current version focuses on one thing, keeping it visible, a daily idea, and a celebration when it's done. Use Issues to share a specific use case or a reproducible problem.
